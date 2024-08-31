@@ -1,0 +1,17 @@
+.water-background {
+    background-image: url('./assets/AquaBg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.water-background h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+}
