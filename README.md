@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# AquaShield 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Link : https://aqua-shield.vercel.app/
 
-## Available Scripts
+## 🌊 Flood Prediction System
 
-In the project directory, you can run:
+Welcome to the **Flood Prediction System**, an intuitive web application that predicts flood likelihood based on various environmental and infrastructural factors. This project leverages modern web technologies and machine learning to provide accurate flood predictions to aid in disaster preparedness and management.
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌐 **Real-time Flood Predictions**: Enter 20 different environmental factors to get instant flood predictions.
+- 🎨 **Beautiful UI**: A sleek, responsive design with a calming water-themed background.
+- 🔔 **Notifications**: Get instant feedback on the status of your predictions with toast notifications.
+- 🛠️ **Error Handling**: Robust error handling ensures the app gracefully manages unexpected scenarios.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Tech Stack
 
-### `npm test`
+- **Frontend**: React, Tailwind CSS, Toastify
+- **Backend**: FastAPI (for the prediction API)
+- **Networking**: Axios for API calls
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+.
+├── public
+│   ├── index.html
+│   └── ...
+├── src
+│   ├── pages
+│   │   ├── Header.js
+│   │   ├── HomePage.js
+│   │   └── PredictPage.js
+│   ├── animations.css
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+└── README.md
